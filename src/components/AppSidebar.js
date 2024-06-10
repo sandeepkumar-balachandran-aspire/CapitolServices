@@ -37,7 +37,7 @@ const AppSidebar = () => {
     >
       <CSidebarHeader className="border-bottom">
         <CSidebarBrand to="/">
-          <img src='public\capitol-services-1024x512-20190903.png' 
+          <img src='src\assets\images\capitol-services-1024x512-20190903.png' 
           style={{ width: '220px', height: 'auto',backgroundColor:'white' }}
           />
         </CSidebarBrand>
