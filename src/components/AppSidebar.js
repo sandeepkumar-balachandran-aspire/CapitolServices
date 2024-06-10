@@ -15,6 +15,7 @@ import { AppSidebarNav } from './AppSidebarNav'
 
 import { logo } from 'src/assets/brand/logo'
 import { sygnet } from 'src/assets/brand/sygnet'
+import capitolLogo from './../assets/images/capitol-services-1024x512-20190903.png'
 
 // sidebar nav config
 import navigation from '../_nav'
@@ -37,7 +38,7 @@ const AppSidebar = () => {
     >
       <CSidebarHeader className="border-bottom">
         <CSidebarBrand to="/">
-          <img src='src\assets\images\capitol-services-1024x512-20190903.png' 
+          <img src={capitolLogo}
           style={{ width: '220px', height: 'auto',backgroundColor:'white' }}
           />
         </CSidebarBrand>
