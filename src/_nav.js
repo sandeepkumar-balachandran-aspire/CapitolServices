@@ -22,9 +22,13 @@ const _nav = [
   },
   {
     component: CNavGroup,
-    name: 'Orders@ (2)',
+    name: 'Orders@',
     to: '/dashboard',
     icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+    badge: {
+      text : "2",
+      color: "warning"
+    },
     items: [
       {
         component: CNavItem,
@@ -55,9 +59,13 @@ const _nav = [
   },
   {
     component: CNavGroup,
-    name: 'IT Help (10)',
+    name: 'IT Help',
     to: '/theme/colors',
     icon: <CIcon icon={cilDrop} customClassName="nav-icon" />,
+    badge: {
+      text : "7",
+      color: "warning"
+    },
     items: [
       {
         component: CNavItem,
@@ -81,6 +89,10 @@ const _nav = [
     name: 'RASAccount',
     to: '/theme/typography',
     icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
+    badge: {
+      text : "4",
+      color: "warning"
+    },
     items: [
       {
         component: CNavItem,
@@ -104,6 +116,10 @@ const _nav = [
     name: 'SWAT',
     to: '/base',
     icon: <CIcon icon={cilPuzzle} customClassName="nav-icon" />,
+    badge: {
+      text : "6",
+      color: "warning"
+    },
     items: [
       {
         component: CNavItem,
@@ -127,6 +143,10 @@ const _nav = [
     name: 'DelawareCrop',
     to: '/buttons',
     icon: <CIcon icon={cilCursor} customClassName="nav-icon" />,
+    badge: {
+      text : "9",
+      color: "warning"
+    },
     items: [
         {
           component: CNavItem,
