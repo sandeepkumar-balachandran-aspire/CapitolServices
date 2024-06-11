@@ -27,6 +27,11 @@ export const AppSidebarNav = ({ items }) => {
             {badge.text}
           </CBadge>
         )}
+        { name == "Orders@" && (
+          <CBadge color={"primary"} className="ms-auto">
+            {10}
+          </CBadge>
+        )}
       </>
     );
   };

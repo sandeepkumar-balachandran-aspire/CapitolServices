@@ -6,3 +6,18 @@
 .Input{
     width:50% !important;
 }
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    /* Space between the input fields */
+}

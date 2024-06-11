@@ -22,6 +22,24 @@ const Collapses = () => {
   const [visibleB, setVisibleB] = useState(false)
 
   return (
+    <div>
+            <form>
+        <div class="input-container">
+            <label for="input1">From Email : </label>
+            <input type="text" id="input1" name="input1"></input>
+        </div>
+        <div class="input-container">
+            <label for="input2">Assigned To : </label>
+            <input type="text" id="input2" name="input2"></input>
+        </div>
+        <div class="input-container">
+            <label for="input1">Aging : </label>
+            <input type="text" id="input3" name="input3"></input>
+        </div>
+        <div class="input-container">
+            <button>Filter</button>
+        </div>
+    </form>
     <CRow>
     <CCol xs={12}>
     <CCard className="mb-4">
@@ -65,6 +83,7 @@ const Collapses = () => {
     </CCard>
     </CCol>
     </CRow>
+    </div>
   )
 }
 
