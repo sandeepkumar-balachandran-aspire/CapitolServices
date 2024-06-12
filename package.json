@@ -19,6 +19,8 @@
     "start": "vite"
   },
   "dependencies": {
+    "@azure/msal-browser": "^3.17.0",
+    "@azure/msal-react": "^2.0.19",
     "@coreui/chartjs": "^4.0.0",
     "@coreui/coreui": "^5.0.0",
     "@coreui/icons": "^3.0.1",

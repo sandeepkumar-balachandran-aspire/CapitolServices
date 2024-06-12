@@ -17,6 +17,7 @@ import { DocsExample } from 'src/components'
 import { AppContent, AppSidebar, AppFooter, AppHeader } from '../components/index'
 
 const DefaultLayout = () => {
+  
   return (
     <div>
       <AppSidebar />
