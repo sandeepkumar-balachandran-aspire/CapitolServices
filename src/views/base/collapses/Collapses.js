@@ -23,23 +23,25 @@ const Collapses = () => {
 
   return (
     <div>
+        <CCard className="mb-4">
             <form>
         <div class="input-container">
-            <label for="input1">From Email : </label>
-            <input type="text" id="input1" name="input1"></input>
+            <label  for="input1">From Email : </label>
+            <input class="form-control Input " type="text" id="input1" name="input1"></input>
         </div>
         <div class="input-container">
             <label for="input2">Assigned To : </label>
-            <input type="text" id="input2" name="input2"></input>
+            <input class="form-control Input " type="text" id="input2" name="input2"></input>
         </div>
         <div class="input-container">
             <label for="input1">Aging : </label>
-            <input type="text" id="input3" name="input3"></input>
+            <input class="form-control Input " type="text" id="input3" name="input3"></input>
         </div>
         <div class="input-container">
-            <button>Filter</button>
+            <button class="btn btn-primary ">Filter</button>
         </div>
     </form>
+    </CCard>
     <CRow>
     <CCol xs={12}>
     <CCard className="mb-4">

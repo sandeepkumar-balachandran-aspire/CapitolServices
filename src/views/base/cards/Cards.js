@@ -20,19 +20,21 @@ import ReactImg from 'src/assets/images/react.jpg'
 const Cards = () => {
   return (
     <div>
+        <CCard className="mb-4">
             <form>
         <div class="input-container">
-            <label for="input1">Email From:</label>
-            <input type="text" id="input1" name="input1"></input>
+            <label  for="input1">Email From:</label>
+            <input class="form-control Input" type="text" id="input1" name="input1"></input>
         </div>
         <div class="input-container">
-            <label for="input2">Aging:</label>
-            <input type="text" id="input2" name="input2"></input>
+            <label  for="input2">Aging:</label>
+            <input class="form-control Input" type="text" id="input2" name="input2"></input>
         </div>
         <div class="input-container">
-            <button>Filter</button>
+            <button class="btn btn-primary">Filter</button>
         </div>
     </form>
+    </CCard>
     <CRow>
     <CCol xs={12}>
     <CCard className="mb-4">

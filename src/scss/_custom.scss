@@ -1,11 +1,12 @@
 // Here you can add other styles
-.Flabel{
+.Flabel {
     margin-right: 2rem;
 }
 
-.Input{
-    width:50% !important;
+.Input {
+    width: 50% !important;
 }
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -18,6 +19,24 @@ form {
 .input-container {
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     /* Space between the input fields */
+}
+
+label {
+    margin-right: 5px;
+    /* Space between label and input */
+}
+
+.name {
+    margin-top: unset;
+    margin-bottom: unset;
+    padding-left: 10px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    content: none !important;
 }
