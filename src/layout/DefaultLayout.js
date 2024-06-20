@@ -15,6 +15,7 @@ import {
 } from '@coreui/react'
 import { DocsExample } from 'src/components'
 import { AppContent, AppSidebar, AppFooter, AppHeader } from '../components/index'
+import ToastExample from '../toast'
 
 const DefaultLayout = () => {
   return (
@@ -24,6 +25,7 @@ const DefaultLayout = () => {
         <AppHeader />
         <div className="body flex-grow-1">
           <AppContent />
+          <ToastExample />
           {/* <CRow>
             <CCol xs={12}>
           <CCard className="mb-4">
